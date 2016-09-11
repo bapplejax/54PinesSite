@@ -1,0 +1,217 @@
+/* lg */
+@media (min-width: 1200px) {
+    .navbar-default .navbar-nav > li:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+        color: #fff;
+    }
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .col-xs-offset-1 {
+        margin-left: 0;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:focus,
+    .navbar-default .navbar-nav > .open > a:hover {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-content h2 {
+        font-size: 45px;
+        letter-spacing: 6px;
+        line-height: 50px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .navbar-default .navbar-nav > li:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:focus,
+    .navbar-default .navbar-nav > .open > a:hover {
+        color: #fff;
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        background-color: transparent !important;
+        border: none;
+        padding: 0;
+        top: 0;
+    }
+
+    nav.navbar.bootsnav .navbar-nav {
+        display: block;
+        background: #fff;
+    }
+
+    .navbar-toggle:hover {
+        background: transparent;
+    }
+
+    ul.nav.navbar-center {
+        float: none;
+
+    }
+
+    .dropdown-menu:after {
+
+        border-bottom: 12px solid transparent;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:focus,
+    .navbar-default .navbar-nav > .open > a:hover {
+        color: #222;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a,
+    nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a {
+        color: #222;
+        display: block;
+    }
+
+    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+        content: "";
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    nav.navbar .navbar-brand {
+
+        top: 1px;
+    }
+
+    nav.navbar.bootsnav li.dropdown.open a.dropdown-toggle:before {
+        content: "\f107";
+        float: right;
+
+    }
+
+    ul.nav.navbar-center {
+        float: none;
+        margin: 0;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+/* xs */
+
+@media (max-width: 767px) {
+    /* main menu*/
+    .navbar-toggle {
+        float: none;
+        padding: 9px 10px;
+        background-color: transparent;
+        background-image: none;
+        border: 0;
+        border-radius: 4px;
+        color: #fff;
+        text-align: center
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        background-color: transparent !important;
+        border: none;
+        padding: 0;
+        top: 0;
+    }
+
+    nav.navbar.bootsnav .navbar-nav {
+        display: block;
+        background: #fff;
+    }
+
+    .navbar-toggle:hover {
+        background: transparent;
+    }
+
+    ul.nav.navbar-center {
+        float: none;
+
+    }
+
+    .dropdown-menu:after {
+
+        border-bottom: 12px solid transparent;
+    }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+        color: #222;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a, nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a {
+        color: #222;
+        display: block;
+    }
+
+    nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+        content: "";
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    nav.navbar .navbar-brand {
+
+        top: 1px;
+    }
+
+    nav.navbar.bootsnav li.dropdown.open a.dropdown-toggle:before {
+        content: "\f107";
+        float: right;
+
+    }
+
+    /*home content*/
+    .home-content h2 {
+        font-size: 39px;
+        letter-spacing: 6px;
+        line-height: 50px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .ins-img ul li:nth-of-type(3n+0) {
+        padding-right: 11px;
+    }
+
+    .single-offer {
+        margin-bottom: 30px;
+    }
+
+    .single-project .project-overlay .project-caption h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    nav.navbar.bootsnav .navbar-brand {
+        float: none !important;
+        margin: 0 !important;
+        padding: 11px 0;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 555px) {
+
+}
