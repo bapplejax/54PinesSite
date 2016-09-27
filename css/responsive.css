@@ -215,3 +215,10 @@
 @media (max-width: 555px) {
 
 }
+
+/* My Changes */
+@media (max-width: 400px) {
+    nav.navbar.bootsnav .navbar-brand {
+        margin-left: -84px !important;
+    }
+}

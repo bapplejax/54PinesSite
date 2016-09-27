@@ -221,7 +221,13 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a {
 }
 
 nav.navbar .navbar-brand img.logo {
-    width: auto;
+    width: 150px;
+}
+
+@media (max-width: 420px) {
+    nav.navbar .navbar-brand img.logo {
+        width: 75px;
+    }
 }
 
 .attr-nav ul li {
